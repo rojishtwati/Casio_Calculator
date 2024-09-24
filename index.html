@@ -10,33 +10,33 @@
         
         <div class="container"><h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;">CASIO</h3>        
             <div class="calculator">
-                <div class="screen" id="screen">0</div>
+                <div class="screen" id="screen"></div>
                 <div class="keypad">
-                    <button class="function" id="allClear">AC</button>
-                    <button class="function">±</button>
-                    <button class="function">%</button>
-                    <button class="operator">/</button>
+                    <button class="function" onclick="clearScreen()">AC</button>
+                    <button class="function" onclick="display('*(-1)')">±</button>
+                    <button class="function" onclick="display('%')">%</button>
+                    <button class="operator" onclick="display('/')">/</button>
                     
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <button class="operator" style="font-size: larger;">X</button>
+                    <button onclick="display('7')">7</button>
+                    <button onclick="display('8')">8</button>
+                    <button onclick="display('9')">9</button>
+                    <button class="operator" style="font-size: larger;" onclick="display('*')">X</button>
                     
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button class="operator">-</button>
+                    <button onclick="display('4')">4</button>
+                    <button onclick="display('5')">5</button>
+                    <button onclick="display('6')">6</button>
+                    <button class="operator" onclick="display('-')">-</button>
 
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button class="operator">+</button>
+                    <button onclick="display('1')">1</button>
+                    <button onclick="display('2')">2</button>
+                    <button onclick="display('3')">3</button>
+                    <button class="operator" onclick="display('+')">+</button>
 
                     
-                    <button>00</button>
-                    <button>0</button>
-                    <button>.</button>
-                    <button class="operator">=</button>
+                    <button onclick="display('00')">00</button>
+                    <button onclick="display('0')">0</button>
+                    <button onclick="display('.')">.</button>
+                    <button class="operator" onclick="equalTo()">=</button>
                     
                 </div>
                 
