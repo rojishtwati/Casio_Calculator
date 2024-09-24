@@ -6,6 +6,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     height:100vh;
 }
+
 .keypad{
     display: grid;
     grid-template-columns:  repeat(4, 1fr);
@@ -29,7 +30,6 @@ body{
     overflow: hidden;
 }
 
-
 button{
     height: 60px;
     width: 60px;
@@ -48,6 +48,7 @@ button:hover{
 button:active{
     background-color:rgba(90,90,90,0.2);
 }
+
 .operator{
     background-color:rgba(255, 149, 0,1);
 }
@@ -57,6 +58,7 @@ button:active{
 .operator:active{
     background-color:rgba(255, 149, 0, 0.2)  ;
 }
+
 .function{
     background-color: rgba(212, 212, 210, 0.7);
 }
@@ -66,6 +68,7 @@ button:active{
 .function:active{
     background-color: rgba(212, 212, 210, 0.2);
 }
+
 .container{
        
     border: 3px solid #ffffff1d;
@@ -75,5 +78,4 @@ button:active{
     align-content: center;
     justify-content: center;
     align-items: center;
-    
 }
