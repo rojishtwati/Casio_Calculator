@@ -1,6 +1,5 @@
 // program for Calculation
 const screen=document.getElementById("screen");
-hello
 function display(input){
 screen.textContent+=input;
 }
